@@ -67,13 +67,13 @@ document.addEventListener("visibilitychange", function () {
     document.title = "Hi, I'am Fadli";
     $("#favicon").attr(
       "href",
-      "a61ed15101bcda2b3017551d57a9d3eb8ef8b7ec/images/hero.png"
+      "a61ed15101bcda2b3017551d57a9d3eb8ef8b7ec/images/iamfadli.jpg"
     );
   } else {
     document.title = "Come Back To Portfolio";
     $("#favicon").attr(
       "href",
-      "a61ed15101bcda2b3017551d57a9d3eb8ef8b7ec/images/hero.png"
+      "a61ed15101bcda2b3017551d57a9d3eb8ef8b7ec/images/iamfadli.jpg"
     );
   }
 });
