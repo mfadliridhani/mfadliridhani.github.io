@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sdalmira/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp skills.json $DEPLOYPATH
+    - /bin/cp -R a61ed15101bcda2b3017551d57a9d3eb8ef8b7ec $DEPLOYPATH
